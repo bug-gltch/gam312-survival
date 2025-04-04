@@ -9,6 +9,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "BuildingPart.h"
 #include "PlayerWidget.h"
+#include "ObjectiveWidget.h"
 #include "PlayerCharacter.generated.h"
 
 UCLASS()
@@ -90,6 +91,15 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadwrite)
 	UPlayerWidget* playerUI;
+
+	UPROPERTY(EditAnywhere, BlueprintReadwrite)
+	UObjectiveWidget* objWidget;
+
+	UPROPERTY()
+	float objectsBuilt;
+
+	UPROPERTY()
+	float matsCollected;
 
 	UFUNCTION(BlueprintCallable) // stat callers
 	void SetHP(float amount);

@@ -29,6 +29,12 @@ void APlayerCharacter::BeginPlay()
 	FTimerHandle StatsTimerHandle; // timer for stat lowering
 	GetWorld()->GetTimerManager().SetTimer(StatsTimerHandle, this, &APlayerCharacter::LowerStats, 2.0f, true); 
 
+	if (objWidget)
+	{
+		objWidget->UpdatebuildOBJ(0.0f);
+		objWidget->UpdatematOBJ(0.0f);
+	}
+
 }
 
 // Called every frame
@@ -115,6 +121,10 @@ void APlayerCharacter::FindObj()
 				{
 					GiveResource(resourceValue, hitName);
 
+					matsCollected = matsCollected + resourceValue;
+
+					objWidget->UpdatematOBJ(matsCollected);
+
 					check(GEngine != nullptr);
 					GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, TEXT("Resource Collected")); // mining :)
 
@@ -133,6 +143,9 @@ void APlayerCharacter::FindObj()
 
 	else {
 		isBuilding = false;
+		objectsBuilt = objectsBuilt + 1.0f;
+
+		objWidget->UpdatebuildOBJ(objectsBuilt);
 	}
 }
 
