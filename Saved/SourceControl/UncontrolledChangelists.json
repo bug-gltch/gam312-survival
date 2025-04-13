@@ -6,7 +6,24 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/allki/Documents/college shit/gam-312 game design/survivalproject/Content/Blueprints/Widgets/Objective_W.uasset",
-				"C:/Users/allki/Documents/college shit/gam-312 game design/survivalproject/Content/Blueprints/PlayerCharacterBP.uasset"
+				"C:/Users/allki/Documents/college shit/gam-312 game design/survivalproject/Content/Blueprints/PlayerCharacterBP.uasset",
+				"C:/Users/allki/Documents/college shit/gam-312 game design/survivalproject/Content/_GENERATED/bug/Tree.uasset",
+				"C:/Users/allki/Documents/college shit/gam-312 game design/survivalproject/Content/_GENERATED/bug/Bush.uasset",
+				"C:/Users/allki/Documents/college shit/gam-312 game design/survivalproject/Content/Blueprints/Resource/Rock.uasset",
+				"C:/Users/allki/Documents/college shit/gam-312 game design/survivalproject/Content/_GENERATED/bug/Rock.uasset",
+				"C:/Users/allki/Documents/college shit/gam-312 game design/survivalproject/Content/Blueprints/Resource/Stone_Resource.uasset",
+				"C:/Users/allki/Documents/college shit/gam-312 game design/survivalproject/Content/Blueprints/Resource/Berry_Resource.uasset",
+				"C:/Users/allki/Documents/college shit/gam-312 game design/survivalproject/Content/Blueprints/Resource/Wood_Resource.uasset",
+				"C:/Users/allki/Documents/college shit/gam-312 game design/survivalproject/Content/testmap.umap",
+				"C:/Users/allki/Documents/college shit/gam-312 game design/survivalproject/Content/Blueprints/Resource/landsc/Grass.uasset",
+				"C:/Users/allki/Documents/college shit/gam-312 game design/survivalproject/Content/Blueprints/Resource/landsc/Dirt.uasset",
+				"C:/Users/allki/Documents/college shit/gam-312 game design/survivalproject/Content/Blueprints/Resource/landsc/landscape_mat.uasset",
+				"C:/Users/allki/Documents/college shit/gam-312 game design/survivalproject/Content/Landscape/Dirt_LayerInfo.uasset",
+				"C:/Users/allki/Documents/college shit/gam-312 game design/survivalproject/Content/Landscape/Grass_LayerInfo.uasset",
+				"C:/Users/allki/Documents/college shit/gam-312 game design/survivalproject/Content/Blueprints/Widgets/WinLose.uasset",
+				"C:/Users/allki/Documents/college shit/gam-312 game design/survivalproject/Content/Blueprints/Widgets/PlayerUIW.uasset",
+				"C:/Users/allki/Documents/college shit/gam-312 game design/survivalproject/Content/Blueprints/Resource/Leaves.uasset",
+				"C:/Users/allki/Documents/college shit/gam-312 game design/survivalproject/Content/Blueprints/Resource/TreeTrunk.uasset"
 			]
 		}
 	]
